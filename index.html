@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hospital Management System</title>
+<meta name="description" content="An all-in-one Hospital Management System that connects every department on one secure cloud platform.">
+<meta property="og:title" content="Hospital Management System">
+<meta property="og:description" content="One platform for every department, running on live data.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="viewport">
+<main class="stage" id="stage" aria-roledescription="presentation">
+
+  <!-- 1 Cover -->
+  <section class="slide cover" aria-label="Cover">
+    <div class="orb o1" aria-hidden="true"></div><div class="orb o2" aria-hidden="true"></div>
+    <svg class="ecg-hero" viewBox="0 0 1600 180" preserveAspectRatio="none" aria-hidden="true">
+      <path class="glow" pathLength="1" d=""/>
+      <path class="line" pathLength="1" d=""/>
+    </svg>
+    <div class="titles">
+      <h1><span data-bind="productName">Zensalus</span></h1>
+      <p class="sub">The hospital management system that connects every department, from the front desk to the pharmacy, on one secure cloud platform.</p>
+    </div>
+    <p class="meta">Presented by <span data-bind="presenterName">Sumedhaa</span>, <span data-bind="companyName">USA</span></p>
+  </section>
+
+  <!-- 2 Problem -->
+  <section class="slide" aria-label="The problem">
+    <div class="split">
+      <div style="display:flex;flex-direction:column;justify-content:center">
+        <p class="label">The problem</p>
+        <h2>Paperwork is costing hospitals time, money and trust</h2>
+      </div>
+      <ul class="plist stagger">
+        <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><h3>Long queues</h3><p>Registration and billing lines frustrate patients and staff.</p></li>
+        <li><svg viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6z"/><path d="M9 11h6M9 15h4"/></svg><h3>Lost records</h3><p>Paper files go missing or get duplicated, slowing diagnosis.</p></li>
+        <li><svg viewBox="0 0 24 24"><path d="M4 6l6 6 4-4 6 6"/><path d="M15 14h5v5"/></svg><h3>Revenue leakage</h3><p>Missed charges, billing errors and unclaimed insurance.</p></li>
+        <li><svg viewBox="0 0 24 24"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg><h3>No live view</h3><p>Beds, stock and staff are tracked too late to act on.</p></li>
+        <li><svg viewBox="0 0 24 24"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17v.5"/></svg><h3>Compliance risk</h3><p>Audit trails stay manual while regulations keep growing.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 3 Statement -->
+  <section class="slide statement on-dark" aria-label="The solution">
+    <div class="ring"></div><div class="ring r2"></div>
+    <h1>One platform for every department, running on live data.</h1>
+    <p>Every team works from the same patient record, so patients wait less and management sees the whole hospital at a glance. It scales from 10-bed clinics to hospital chains with 1,000+ beds.</p>
+  </section>
+
+  <!-- 4 Modules -->
+  <section class="slide" aria-label="Modules">
+    <p class="label">What's inside</p>
+    <h2>Eleven modules that share one patient record</h2>
+    <div class="mgrid stagger">
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M16 19.5a8 8 0 0 1 16 0v6.5a8 8 0 0 1-16 0z"/><path d="M24 11v9M20 15h8"/><path d="M14 33h20M18 37h12"/><circle cx="24" cy="14" r="3"/></svg><h3>Patient registration</h3><p>Unique IDs, QR cards, visit history</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="12" width="28" height="24" rx="3"/><path d="M18 8v8M30 8v8M10 19h28M17 26h6M25 26h6M17 32h14"/></svg><h3>Appointments &amp; OPD</h3><p>Online booking, tokens, reminders</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 18h28v16H10z"/><path d="M18 18V12h12v6M16 25h16M20 29h8"/><path d="M8 34h32"/></svg><h3>IPD &amp; beds</h3><p>Admissions, transfers, discharge</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M14 12h20l4 26H10z"/><path d="M18 18h12M18 24h12M18 30h8"/><path d="M13 12l2-5h18l2 5"/></svg><h3>Medical records</h3><p>Diagnoses, prescriptions, vitals, notes</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M17 12h14l6 6v18H11V12z"/><path d="M31 12v6h6M18 22h12M18 28h12M18 34h8"/><path d="M17 8v8M31 8v8"/></svg><h3>Laboratory</h3><p>Orders, samples, auto-shared reports</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M16 12h16v8l8 10v6H8v-6l8-10z"/><path d="M18 22h12M20 29h8"/><path d="M24 12V8"/></svg><h3>Radiology</h3><p>Imaging orders and report templates</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M16 14h16l4 22H12z"/><path d="M20 14V10h8v4M18 22h12M18 28h12"/><circle cx="24" cy="17" r="2.5"/></svg><h3>Pharmacy</h3><p>Dispensing, batches, expiry alerts</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M12 17h24v18H12z"/><path d="M18 17V13h12v4M16 23h16M16 29h11"/><path d="M30 26l4 4-4 4"/></svg><h3>Billing &amp; insurance</h3><p>Auto charges, packages, TPA claims</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M15 15h18v22H15z"/><path d="M19 15V11h10v4M17 22h14M17 28h14M17 34h10"/><path d="M34 18h4v18h-4"/></svg><h3>Inventory &amp; purchase</h3><p>Stores, vendors, purchase orders</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M12 18h24v18H12z"/><path d="M18 18V12h12v6M16 24h16M16 30h10"/><path d="M29 30h3v3h-3z"/></svg><h3>Reports &amp; dashboards</h3><p>Revenue, occupancy, performance</p></div>
+      <div class="module-card"><svg class="module-icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="16" y="8" width="16" height="32" rx="4"/><path d="M20 16h8M20 23h8M20 30h5"/><path d="M24 40v4"/></svg><h3>Patient app</h3><p>Book visits, view reports, pay bills</p></div>
+    </div>
+  </section>
+
+  <!-- 5 Benefits -->
+  <section class="slide" aria-label="Benefits">
+    <p class="label">Who it helps</p>
+    <h2>Everyone in the hospital gets time back</h2>
+    <div class="btable stagger">
+      <div class="brow"><h3>Owners &amp; management</h3><p>Live dashboards on revenue and occupancy, fewer leaks, better decisions.</p></div>
+      <div class="brow"><h3>Doctors</h3><p>Full patient history in one click, faster prescriptions, fewer repeat tests.</p></div>
+      <div class="brow"><h3>Nurses</h3><p>Clear task lists, digital vitals charting, smoother shift handovers.</p></div>
+      <div class="brow"><h3>Front desk</h3><p>Registration in under two minutes, shorter queues, fewer phone calls.</p></div>
+      <div class="brow"><h3>Accounts &amp; finance</h3><p>Automatic billing, faster insurance claims, clean audit trails.</p></div>
+      <div class="brow"><h3>Patients</h3><p>Less waiting, online reports and payments, a calmer visit.</p></div>
+    </div>
+  </section>
+
+  <!-- 6 Why us -->
+  <section class="slide" aria-label="Why choose us">
+    <div class="split">
+      <div class="why-left">
+        <div>
+          <p class="label">Why hospitals choose us</p>
+          <h2>Built to switch to without stopping the hospital</h2>
+        </div>
+        <div>
+          <div class="big">2–6 wks</div>
+          <p class="soft" style="margin-top:12px">from kickoff to go-live for most hospitals</p>
+        </div>
+      </div>
+      <ul class="wlist stagger">
+        <li><h3>Easy to use</h3><p>Staff learn it in days, not months.</p></li>
+        <li><h3>Cloud-based</h3><p>No servers to buy; secure access from any device.</p></li>
+        <li><h3>Modular pricing</h3><p>Pay for the modules you need and add more later.</p></li>
+        <li><h3>Customisable</h3><p>Forms, reports and workflows fit how you work.</p></li>
+        <li><h3>Integrations</h3><p>Lab machines, payments, SMS/WhatsApp, insurance portals.</p></li>
+        <li><h3>Local support</h3><p>A dedicated account manager, in your language.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7 Implementation -->
+  <section class="slide implementation" aria-label="Implementation">
+    <p class="label">Implementation</p>
+    <h2>Live in weeks, with our team beside yours</h2>
+    <div class="timeline">
+      <div class="fill"></div>
+      <div class="tstep"><div class="node">1</div><p class="when">Week 1</p><h3>Discovery</h3><p>We map your departments, workflows and reports.</p></div>
+      <div class="tstep"><div class="node">2</div><p class="when">Weeks 1–3</p><h3>Setup</h3><p>We configure modules and migrate patient, stock and billing data.</p></div>
+      <div class="tstep"><div class="node">3</div><p class="when">Weeks 2–4</p><h3>Training</h3><p>Role-based sessions for every team, from doctors to accounts.</p></div>
+      <div class="tstep"><div class="node">4</div><p class="when">Weeks 3–6</p><h3>Go-live</h3><p>We stay with you on-site or online through the first days.</p></div>
+      <div class="tstep"><div class="node">5</div><p class="when">Ongoing</p><h3>Support</h3><p>Phone, chat and email support, free updates, regular check-ins.</p></div>
+    </div>
+  </section>
+
+  <!-- 8 Security -->
+  <section class="slide" aria-label="Security and compliance">
+    <div class="split" style="grid-template-columns: 1fr 1fr;">
+      <div style="display:flex;flex-direction:column;justify-content:center">
+        <p class="label">Security &amp; compliance</p>
+        <h2>Patient data, protected at every step</h2>
+        <ul class="slist stagger" style="margin-top:36px">
+          <li><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Encrypted in transit and at rest</li>
+          <li><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6M17 11l2 2 3-4"/></svg>Role-based access for every user</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Full audit log of every view and change</li>
+          <li><svg viewBox="0 0 24 24"><path d="M7 18a5 5 0 0 1-.5-10A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/></svg>Daily backups and disaster recovery</li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Supports HIPAA, ABDM or GDPR, by region</li>
+        </ul>
+        <p class="note"><span data-bind="certNote">HIPAA-ready infrastructure, encrypted cloud hosting, and role-based audit controls for clinical data.</span></p>
+      </div>
+      <div class="shield" aria-hidden="true">
+        <svg viewBox="0 0 340 400">
+          <path class="sh-outer" d="M170 12 L318 66 V186 C318 284 252 352 170 388 C88 352 22 284 22 186 V66 Z" fill="var(--scrub)" opacity="0.12"/>
+          <path class="sh-inner" d="M170 52 L282 94 V188 C282 262 232 314 170 344 C108 314 58 262 58 188 V94 Z" fill="var(--scrub)"/>
+          <g class="sh-cross"><rect x="146" y="130" width="48" height="140" rx="10" fill="var(--on-scrub)"/>
+          <rect x="100" y="176" width="140" height="48" rx="10" fill="var(--on-scrub)"/></g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 Objections -->
+  <section class="slide" aria-label="Common questions">
+    <p class="label">Common questions</p>
+    <h2>What hospitals ask us before they switch</h2>
+    <div class="faq stagger">
+      <div class="item"><button aria-expanded="false">“It’s too expensive.”<span class="plus"></span></button><div class="ans"><div><p>Modular plans start small, and recovered billing leaks help cover the cost.</p></div></div></div>
+      <div class="item"><button aria-expanded="false">“My staff aren’t tech-savvy.”<span class="plus"></span></button><div class="ans"><div><p>The interface is simple, and we train every role until they’re comfortable.</p></div></div></div>
+      <div class="item"><button aria-expanded="false">“Switching will disrupt us.”<span class="plus"></span></button><div class="ans"><div><p>We migrate your data and go live in phases, with our team on hand.</p></div></div></div>
+      <div class="item"><button aria-expanded="false">“Is our data safe in the cloud?”<span class="plus"></span></button><div class="ans"><div><p>Data is encrypted, backed up daily and access-controlled by role.</p></div></div></div>
+      <div class="item"><button aria-expanded="false">“We already use some software.”<span class="plus"></span></button><div class="ans"><div><p>We import your data and integrate with the tools you want to keep.</p></div></div></div>
+      <div class="item"><button aria-expanded="false">“What if the internet goes down?”<span class="plus"></span></button><div class="ans"><div><p><span data-bind="offlineAnswer">[Describe your offline mode or backup process.]</span></p></div></div></div>
+    </div>
+    <p class="hint">Click a question to show the answer.</p>
+  </section>
+
+  <!-- Progress + controls -->
+  <div class="chrome" id="chrome">
+    <div class="ecg-progress">
+      <svg viewBox="0 0 1228 60" preserveAspectRatio="none" aria-hidden="true">
+        <path class="track" d=""/>
+        <path class="live" pathLength="1" d=""/>
+        <circle class="pulse" r="6" cx="0" cy="40"/>
+        <circle class="dot" r="6" cx="0" cy="40"/>
+      </svg>
+    </div>
+    <div class="controls">
+      <button id="soundToggle" class="sound-toggle" aria-label="Toggle sound" title="Toggle presentation sound">🔊</button>
+      <button id="prev" aria-label="Previous slide"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <span class="count" id="count" aria-live="polite">1 / 10</span>
+      <button id="next" aria-label="Next slide"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+</main>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
